@@ -21,6 +21,7 @@ export const InputContainer = styled.div`
   width: 100%;
   position: relative;
   &.placeholder {
+    color: black;
     height: 44px;
   }
   .icon {
@@ -40,27 +41,24 @@ export const InputContainer = styled.div`
 `;
 
 export const Input = styled.textarea<{ hasIcon: boolean; hasError: boolean; }>`
-
-  min-height: 800px;
+  height: 500px;
   width: 100%;
   padding-left: ${({ hasIcon }): string => hasIcon ? '60px' : '15px' /* 15 is the standard */};
-  border-bottom-color: ${({ theme, hasError }): string => hasError ? theme.error : 'transparent'};
   background-color: transparent;
-  font-size: 1.1rem;
+  font-size: 1rem;
   border-bottom: 2px solid white;
-  text-align: center;
   font-weight: 600;
-  ::selection {
-    background-color: white;
-    color: ${({ theme }) => theme.p};
-  }
+  border: none;
+  color: ${({ theme }) => theme.s}Af;
+  resize: none;
+  outline: 0;
+
   &:focus {
     border-bottom-color: ${({ theme, hasError }): string => hasError ? theme.error : 'white'};
   }
   &::placeholder{
     text-transform: capitalize;
-    font-weight: 600;
-    color: white;
+    font-weight: 400;
   }
   &[readOnly]{
     opacity: .5;
@@ -93,4 +91,5 @@ export const Error = styled.span`
   height: 40px;
   font-weight: 500;
   white-space: nowrap;
+  color: white;
 `;

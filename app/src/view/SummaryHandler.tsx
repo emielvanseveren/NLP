@@ -1,6 +1,6 @@
 import { FC, useState } from 'react';
 import styled from 'styled-components';
-import { Button, Summary, TextArea } from 'components';
+import { Button, TextArea, Summary, Skeleton } from 'components';
 import { httpService } from 'services';
 import { useForm, SubmitHandler } from 'react-hook-form';
 import { setCustomErrorMessages } from 'helpers';
@@ -8,8 +8,37 @@ import { joiResolver } from '@hookform/resolvers/joi';
 import Joi from 'joi';
 
 const Container = styled.div`
-  width: 100%;
-  height: 100vh;
+  width: 1200px;
+  box-shadow: -1px 4px 12px 0px rgb(31 31 31 / 15%);
+  h3 {
+    padding: 15px 25px;
+    border-bottom: 1px solid ${({ theme }) => theme.bg};
+    font-weight: 700;
+  }
+`;
+
+const ButtonContainer = styled.div`
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+`;
+
+const ContentContainer = styled.div`
+  display: flex;
+`;
+
+const Left = styled.form`
+  width: 50%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;
+`;
+const Right = styled.div`
+  border-left: 2px solid ${({ theme }) => theme.bg};
+  width: 50%;
+  min-height: 100%;
+  padding: 20px;
 `;
 
 interface IResponse {
@@ -36,7 +65,6 @@ export const SummaryHandler: FC = () => {
 
 
   const onSubmit: SubmitHandler<IFormInputs> = async ({ text }) => {
-
     if (!formState.isValid) {
       return;
     }
@@ -46,20 +74,29 @@ export const SummaryHandler: FC = () => {
     const response = await httpService.post('/summary', { text: text });
     if (response.ok) {
       const data = await response.json();
-      console.log(data);
       setData(data);
     }
     setLoading(false);
   }
 
-
   return (
     <Container>
-      <form onSubmit={handleSubmit(onSubmit)}>
-        <TextArea labelText="" placeholder="im a placeholder" name="name" error={errors.text} ref={register} />
-        <Button active={formState.isValid && formState.isDirty} type="submit" isLoading={loading}>generate summary</Button>
-        {data ? <Summary text={data.summary} /> : null}
-      </form>
+      <h3>Summary</h3>
+      <ContentContainer>
+        <Left onSubmit={handleSubmit(onSubmit)}>
+          <TextArea labelText="" placeholder="Paste or write about your topic then click the Summarize button." name="text" error={errors.text} ref={register} />
+          <ButtonContainer>
+            <Button active={formState.isValid && formState.isDirty} type="submit" isLoading={loading}>Summarize</Button>
+          </ButtonContainer>
+        </Left>
+        <Right>
+          {
+            data ?
+              <Summary text={data.summary} />
+              : <Skeleton />
+          }
+        </Right>
+      </ContentContainer>
     </Container>
   );
 }

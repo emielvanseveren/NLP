@@ -26,6 +26,7 @@ export const TextArea = forwardRef<HTMLTextAreaElement, ITextAreaDefaultProps>((
         <Input
           autoCapitalize="off"
           autoComplete="off"
+          spellCheck="false"
           hasError={error ? true : false}
           hasIcon={icon ? true : false}
           id={name}
