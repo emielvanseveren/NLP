@@ -1,2 +1,0 @@
-# NLP
-Student hackathon delaware
