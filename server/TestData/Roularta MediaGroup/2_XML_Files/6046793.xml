@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="WINDOWS-1252"?>
+<article DOSfilename="TR2107-0181.xml" language="nl">
+  <header>
+    <version date="20210218" user="intern"/>
+    <authors>
+      <author>
+        <firstname/>
+        <lastname>Luc Huysmans</lastname>
+      </author>
+    </authors>
+    <edition>
+      <editionname>TR</editionname>
+      <page>18</page>
+      <date>20210218</date>
+    </edition>
+    <keywords/>
+    <class>COVERVERHAAL</class>
+  </header>
+  <body>
+    <supertitle>Warmtepompen in tijden van slimme meters </supertitle>
+    <title>‘Een warmtepomp koop je niet zoals een brood’ </title>
+    <section type="INL">
+      <paragraph>Wie onlangs nog heeft geïnvesteerd in een warmtepomp en zonnepanelen, is het zwaarst getroffen door de afvoering van de terugdraaiende teller. Toch ligt de sector niet op apegapen. </paragraph>
+    </section>
+    <section type="TEK">
+      <paragraph>“We merken nog niet veel van een terugvallende vraag naar warmtepompen”, zegt Emile Vandenbosch, de secretaris van de Associatie voor de Thermische Technieken van België (ATTB). “Een warmtepomp koop je ook niet zoals een brood. Het is een serieuze investering. Wie de laatste maanden die knoop heeft doorgehakt, draait die beslissing niet makkelijk terug.” </paragraph>
+      <paragraph>Nochtans zijn eigenaars van de combinatie van een warmtepomp en zonnepanelen het hardst getroffen door het verdwijnen van de terugdraaiende teller. Zij hebben in de zomer een overschot aan stroom, terwijl ze in de winter veel verbruiken. Gebaseerd op de aanvragen voor een warmtepomppremie, zou het gaan om 5300 gezinnen, waarvan er iets meer dan 1190 al een digitale meter hebben gekregen. “Dat is wellicht een onderschatting, omdat niet iedereen een premie heeft aangevraagd”, stelt Ellen Van Mello, beleidsmedewerker van de Organisatie voor Duurzame Energie (ODE). Vlaams minister van Energie Zuhal Demir (N-VA) laat door experts bekijken of en hoe die mensen kunnen worden gecompenseerd. </paragraph>
+      <paragraph>De markt van de warmtepompen is groter dan die particuliere markt. De grootste toestellen gaan bijvoorbeeld naar hotels en kantoren. In 2019 zijn 41.000 warmtepompen verkocht, of 35 procent meer dan het jaar daarvoor. “Om in een nieuwbouw aan de energieprestatieregelgeving te voldoen, kun je bijna niet zonder een warmtepomp”, weet Vandenbosch. </paragraph>
+      <paragraph>Op de renovatiemarkt wordt wel een impact verwacht, weet Van Mello na een rondvraag bij fabrikanten en installateurs. “Nochtans moeten die investeringen net toenemen om de klimaatdoelstellingen te halen. Bovendien blijft de combinatie van een warmtepompboiler met zonnepanelen interessant, want ook in de zomer heb je warm water en koeling nodig. Met een slimme sturing van de warmtepomp en/of de warmtepompboiler kun je het negatieve effect van het wegvallen van de terugdraaiende teller deels wegwerken.” </paragraph>
+    </section>
+    <intitle>Koudwatervrees </intitle>
+    <section type="TEK">
+      <paragraph>Toch zijn warmtepompen lang niet de dominante technologie om huizen te verwarmen. Elk jaar worden nog zowat 215.000 verwarmingsketels verkocht, waarvan een kleine 200.000 op gas, de rest op olie. “De verwarmingsmarkt is een vrij conservatieve sector”, meent Dirk Van Evercooren, de directeur van ODE. “Een warmtepomp is ook niet altijd de beste oplossing. In een slecht geïsoleerde woning moet je er geen installeren. Maar in veel gevallen kan het wel een goede oplossing zijn, maar is er koudwatervrees.” </paragraph>
+      <paragraph>De grootste rem op de doorbraak van de warmtepomp zijn de energieprijzen. “Elektriciteit is vijf keer zo duur als gas”, zegt Patrick O, de CEO van de verwarmingsspecialist Viessmann Belux. “Je krijgt aan klanten niet uitgelegd dat ze nieuwe technologie hebben waardoor hun verbruik daalt, terwijl ze toch meer betalen.” Van Evercooren bevestigt dat: “De elektriciteitsfactuur zit vol kosten die er niet in thuishoren. Die ondergraven de concurrentiepositie van de warmtepomp tegenover fossiele brandstoffen, zoals olie of gas.” </paragraph>
+    </section>
+    <section type="AUT">
+      <paragraph>Luc Huysmans </paragraph>
+    </section>
+    <binaries>
+      <binary agency="" source="GettyImages-174953382.jpg">
+        <description>
+          <paragraph>
+            <bold>WARMTEPOMP</bold>
+          Nog lang niet de dominante technologie om huizen te verwarmen.</paragraph>
+        </description>
+      </binary>
+      <binary agency="" source="TR07-018_1_TOL_InfoGrafiek.jpg"/>
+    </binaries>
+  </body>
+  <extra>
+    <RMGArticleGeometry contour="0,0,202000,0,202000,267000,0,267000,0,0" page="18"/>
+    <ArticleGeometry apagenum="1" boxPX="180" boxPY="569" boxSX="180" boxSY="569" boxheight="142" boxwidth="207" spreadnum="1" type="imagebox"/>
+    <ArticleGeometry apagenum="1" boxPX="496" boxPY="19" boxSX="496" boxSY="19" boxheight="61" boxwidth="61" spreadnum="1" type="imagebox"/>
+    <Layout>L1000</Layout>
+  </extra>
+</article>

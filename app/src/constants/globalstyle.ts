@@ -30,7 +30,6 @@ export const GlobalStyle = createGlobalStyle<{ theme: ThemeType }>`
     transition: background-color 0.2s linear;
     transition: box-shadow 0.125s linear;
     margin: 0;
-    user-select: none;
     padding: 0;
     box-sizing: border-box;
     color: ${({ theme }) => theme.s};

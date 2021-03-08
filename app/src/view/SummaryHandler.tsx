@@ -42,9 +42,9 @@ const Right = styled.div`
 `;
 
 interface IResponse {
-  summary: string;
+  summary: string[];
   readingTimeOriginal: number;
-  readingTimeSummary: string;
+  readingTimeSummary: number;
 }
 
 interface IFormInputs {
